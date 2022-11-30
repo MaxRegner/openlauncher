@@ -33,6 +33,33 @@
     <string name="minibar_summary__notification_bar">Expand the notification view at the top of the screen.</string>
     <string name="minibar_title__camera">Camera</string>
     <string name="minibar_summary__camera">Take a picture with your camera app</string>
+    <string name="minibar_title__flashlight">Flashlight</string>
+    <string name="minibar_summary__flashlight">Turn on/off the flashlight.</string>
+    <string name="minibar_title__screen_off">Turn Screen Off</string>
+    <string name="minibar_summary__screen_off">Turn the screen off.</string>
+    <string name="minibar_title__power_menu">Power Menu</string>
+    <string name="minibar_summary__power_menu">Show the power menu.</string>
+    <string name="minibar_title__sleep_timer">Sleep Timer</string>
+    <string name="minibar_summary__sleep_timer">Set a sleep timer.</string>
+    <string name="minibar_title__screenshot">Screenshot</string>
+    <string name="minibar_summary__screenshot">Take a screenshot.</string>
+    <string name="minibar_title__recents">Recent Apps</string>
+    <string name="minibar_summary__recents">Show the recent apps.</string>
+    <string name="minibar_title__google_now">Google Now</string>
+    <string name="minibar_summary__google_now">Open Google Now.</string>
+    <string name="minibar_title__google_assistant">Google Assistant</string>
+    <string name="minibar_summary__google_assistant">Open Google Assistant.</string>
+    <string name="minibar_title__voice_search">Voice Search</string>
+    <string name="minibar_summary__voice_search">Open the voice search.</string>
+    <string name="minibar_title__calendar">Calendar</string>
+    <string name="minibar_summary__calendar">Open the calendar.</string>
+    <string name="minibar_title__clock">Clock</string>
+    <string name="minibar_summary__clock">Open the clock.</string>
+    <string name="minibar_title__calculator">Calculator</string>
+    <string name="minibar_summary__calculator">Open the calculator.</string>
+    <string name="minibar_title__music_player">Music Player</string>
+    <string name="minibar_summary__music_player">Open the music player.</string>
+    <string name="minibar_title__play_store">Play Store</string
 
     <!-- About -->
     <string name="about_libs">Open Source Libraries</string>
@@ -88,21 +115,29 @@
     <string name="pref_title__animations">Animations</string>
     <string name="pref_title__debug">Debug</string>
 
-    <string name="pref_title__desktop_indicator_style">Indicator Style</string>
-    <string name="pref_title__desktop_wallpaper_scroll">Wallpaper Scroll</string>
-    <string name="pref_title__desktop_orientation">Orientation</string>
-    <string name="pref_title__desktop_show_grid">Show Grid</string>
-    <string name="pref_summary__desktop_show_grid">Show the guiding grid when dragging items.</string>
-    <string name="pref_title__desktop_fullscreen">Fullscreen</string>
-    <string name="pref_summary__desktop_fullscreen">Enable fullscreen for the desktop.</string>
-    <string name="pref_title__desktop_show_position_indicator">Position Indicator</string>
-    <string name="pref_summary__desktop_show_position_indicator">Show the page indicator below the desktop.</string>
-    <string name="pref_title__desktop_show_label">Show Labels</string>
-    <string name="pref_summary__desktop_show_label">Show item labels below their icons.</string>
-    <string name="pref_title__desktop_background_color">Background</string>
-    <string name="pref_title__desktop_inset_color">System Bars</string>
-    <string name="pref_title__desktop_folder_color">Folders</string>
+    <string name="pref_title__desktop_grid">Desktop Grid</string>
+    <string name="pref_title__desktop_grid_columns">Columns</string>
+    <string name="pref_title__desktop_grid_rows">Rows</string>
+    <string name="pref_title__desktop_grid_hide">Hide Grid</string>
+    <string name="pref_title__desktop_grid_show">Show Grid</string>
+    <string name="pref_title__desktop_grid_show_on_long_press">Show Grid on Long Press</string>
+    <string name="pref_title__desktop_grid_snap">Snap to Grid</string>
+    <string name="pref_title__desktop_grid_snap_on_long_press">Snap to Grid on Long Press</string>
+    <string name="pref_title__desktop_grid_snap_to_border">Snap to Border</string>
+    <string name="pref_title__desktop_grid_snap_to_border_on_long_press">Snap to Border on Long Press</string>
+    <string name="pref_title__desktop_grid_padding">Grid Padding</string>
+    <string name="pref_title__desktop_grid_padding_left">Left</string>
+    <string name="pref_title__desktop_grid_padding_top">Top</string>
+    <string name="pref_title__desktop_grid_padding_right">Right</string>
+    <string name="pref_title__desktop_grid_padding_bottom">Bottom</string>
+    <string name="pref_title__desktop_grid_padding_reset">Reset</string>
+    <string name="pref_title__desktop_grid_padding_reset_all">Reset All</string>
 
+    <string name="pref_title__desktop_indicator">Desktop Indicator</string>
+    <string name="pref_title__desktop_indicator_show">Show Indicator</string>
+    <string name="pref_title__desktop_indicator_style">Style</string>
+    <string name="pref_title__desktop_indicator_color">Color</string>
+    <string name="pref_title__desktop_indicator_color_custom">Custom Color</string>
     <string name="pref_title__search_bar_enable">Search Bar</string>
     <string name="pref_summary__search_bar_enable">Display a search bar above the desktop.</string>
     <string name="pref_title__search_bar_starts_with">Search apps by name</string>
@@ -228,6 +263,42 @@
     <string name="custom">Custom</string>
     <string name="default_folder">Unnamed</string>
     <string name="default_icons">Default</string>
+    <string name="default_wallpaper">Default</string>
+    <string name="default_theme">Default</string>
+    <string name="default_language">Default</string>
+    <string name="default_font">Default</string>
+    <string name="default_font_size">Default</string>
+    <string name="default_icon_size">Default</string>
+    <string name="default_animation_speed">Default</string>
+    <string name="default_orientation">Default</string>
+    <string name="default_scroll">Default</string>
+    <string name="default_indicator">Default</string>
+    <string name="default_drawer_style">Default</string>
+    <string name="default_drawer_grid">Default</string>
+    <string name="default_drawer_label">Default</string>
+    <string name="default_drawer_fast_scroll">Default</string>
+    <string name="default_drawer_card">Default</string>
+    <string name="default_drawer_card_radius">Default</string>
+    <string name="default_drawer_card_elevation">Default</string>
+    <string name="default_drawer_card_margin">Default</string>
+    <string name="default_drawer_card_padding">Default</string>
+    <string name="default_drawer_card_color">Default</string>
+    <string name="default_drawer_label_color">Default</string>
+    <string name="default_drawer_fast_scroll_color">Default</string>
+    <string name="default_drawer_label_font_size">Default</string>
+    <string name="default_gesture_notifications">Default</string>
+    <string name="default_gesture_feedback">Default</string>
+    <string name="default_gesture_quick_swipe">Default</string>
+    <string name="default_gesture_double_tap">Default</string>
+    <string name="default_gesture_swipe_up">Default</string>
+    <string name="default_gesture_swipe_down">Default</string>
+    <string name="default_gesture_pinch_in">Default</string>
+    <string name="default_gesture_pinch_out">Default</string>
+    <string name="default_primary_color">Default</string>
+    <string name="default_secondary_color">Default</string>
+    <string name="default_primary_text_color">Default</string>
+    <string name="default_secondary_text_color">Default</string>
+    <string name="default_primary_text_color_dark">Default</string>
 
     <!-- Drag Option View -->
     <string name="edit">Edit</string>
@@ -235,6 +306,48 @@
     <string name="uninstall">Uninstall</string>
     <string name="remove">Remove</string>
     <string name="resize">Resize</string>
+    <string name="hide">Hide</string>
+    <string name="show">Show</string>
+    <string name="lock">Lock</string>
+    <string name="unlock">Unlock</string>
+    <string name="rename">Rename</string>
+
+    <!-- App Drawer -->
+    <string name="app_drawer">App Drawer</string>
+    <string name="app_drawer_style">Style</string>
+    <string name="app_drawer_grid">Grid</string>
+    <string name="app_drawer_label">Label</string>
+    <string name="app_drawer_fast_scroll">Fast Scroll</string>
+    <string name="app_drawer_card">Card</string>
+    <string name="app_drawer_card_radius">Card Radius</string>
+    <string name="app_drawer_card_elevation">Card Elevation</string>
+    <string name="app_drawer_card_margin">Card Margin</string>
+    <string name="app_drawer_card_padding">Card Padding</string>
+    <string name="app_drawer_card_color">Card Color</string>
+    <string name="app_drawer_label_color">Label Color</string>
+    <string name="app_drawer_fast_scroll_color">Fast Scroll Color</string>
+    <string name="app_drawer_label_font_size">Label Font Size</string>
+
+    <!-- Desktop -->
+    <string name="desktop">Desktop</string>
+    <string name="desktop_style">Style</string>
+    <string name="desktop_grid">Grid</string>
+    <string name="desktop_label">Label</string>
+    <string name="desktop_fast_scroll">Fast Scroll</string>
+    <string name="desktop_card">Card</string>
+    <string name="desktop_card_radius">Card Radius</string>
+    <string name="desktop_card_elevation">Card Elevation</string>
+    <string name="desktop_card_margin">Card Margin</string>
+    <string name="desktop_card_padding">Card Padding</string>
+    <string name="desktop_card_color">Card Color</string>
+    <string name="desktop_label_color">Label Color</string>
+    <string name="desktop_fast_scroll_color">Fast Scroll Color</string>
+    <string name="desktop_label_font_size">Label Font Size</string>
+
+    <!-- General -->
+    <string name="general">General</string>
+    <string name="theme">Theme</string>
+    <string name="language">Language</string>
 
     <!-- Desktop Option View -->
     <string name="home">Home</string>
